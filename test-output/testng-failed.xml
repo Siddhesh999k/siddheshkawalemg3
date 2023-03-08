@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.saucedemo.TESTPACK.TC007finishfunctionality">
+        <methods>
+          <include name="finishfunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.saucedemo.TESTPACK.TC007finishfunctionality -->
+      <class name="com.saucedemo.TESTPACK.TC006InformationCheckoutpage">
+        <methods>
+          <include name="InformationCheckoutpage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.saucedemo.TESTPACK.TC006InformationCheckoutpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
